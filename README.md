@@ -1,3 +1,6 @@
 # REACT BOILERPLATE WITH TYPESCRIPT
 
 
+action
+reducer
+store
