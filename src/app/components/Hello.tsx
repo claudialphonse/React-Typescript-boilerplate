@@ -8,7 +8,7 @@ interface IProps{
 export class Hello extends React.Component<IProps, {}>{
     render(){
         return(
-            <h1 className="red">This is a {this.props.framework} application using {this.props.compiler} with {this.props.bundler} </h1>
+            <h1 className="red">This is a {this.props.framework} application using {this.props.compiler} with {this.props.bundler}..ssaaqq </h1>
         )
     }
 }

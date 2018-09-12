@@ -1,5 +1,13 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import {Hello}  from './components/Hello';
+import { ToDo } from './components/ToDo';
 
-ReactDOM.render(<Hello compiler="Typescript" framework="React" bundler="Webpack"/>,document.getElementById('root'));
+export class App extends React.Component{
+    render(){
+        return(
+            <div>
+                <ToDo/>
+            </div>
+        )
+    }
+}

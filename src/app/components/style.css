@@ -1,3 +1,11 @@
 .red{
-    color: blue;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width:100%;
+    background:#FF6860;
+}
+.wrapper{
+
 }
