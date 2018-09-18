@@ -1,6 +1,5 @@
-import { store } from "./store";
+import { store } from './store';
 
-export function dispatch(action:any){
-    return store.dispatch(action)
-    
+export function dispatch(action: any) {
+  return store.dispatch(action);
 }

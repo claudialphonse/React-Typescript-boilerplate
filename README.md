@@ -1,6 +1,3 @@
 # REACT BOILERPLATE WITH TYPESCRIPT
 
-
-action
-reducer
-store
+TodoList with redux implementation implemented with component separation
