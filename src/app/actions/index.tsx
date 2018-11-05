@@ -34,3 +34,9 @@ export function search(text: string) {
     text
   });
 }
+export function search2(text: string) {
+  return dispatch({
+    type: 'SEARCH_TODO',
+    text
+  });
+}
