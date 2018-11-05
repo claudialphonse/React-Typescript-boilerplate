@@ -40,3 +40,9 @@ export function search2(text: string) {
     text
   });
 }
+export function search3(text: string) {
+  return dispatch({
+    type: 'SEARCH_TODO',
+    text
+  });
+}
