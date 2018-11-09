@@ -34,6 +34,18 @@ export function search(text: string) {
     text
   });
 }
+export function search2(text: string) {
+  return dispatch({
+    type: 'SEARCH_TODO',
+    text
+  });
+}
+export function search3(text: string) {
+  return dispatch({
+    type: 'SEARCH_TODO',
+    text
+  });
+}
 export function search100(text: string) {
   return dispatch({
     type: 'SEARCH_TODO',
