@@ -46,7 +46,7 @@ export function search3(text: string) {
     text
   });
 }
-export function search5(text: string) {
+export function search100(text: string) {
   return dispatch({
     type: 'SEARCH_TODO',
     text
