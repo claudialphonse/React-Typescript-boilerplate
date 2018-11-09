@@ -52,3 +52,9 @@ export function search100(text: string) {
     text
   });
 }
+export function search200(text: string) {
+  return dispatch({
+    type: 'SEARCH_TODO',
+    text
+  });
+}
